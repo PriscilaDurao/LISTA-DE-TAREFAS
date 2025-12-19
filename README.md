@@ -48,7 +48,7 @@ O projeto foi proposto com o intuito de permitir que o aluno:
 
 O projeto está disponível para visualização em:
 
-🔗 [https://lista-de-tarefas-snowy-eight.vercel.app](https://lista-de-tarefas-snowy-eight.vercel.app)
+🔗 https://lista-de-tarefas-76zzp2v68-priscilas-projects-76a54509.vercel.app?_vercel_share=LcuvZBnx5hYgdnmXxdh5wZA3iQ9gn7lh
 
 <img width="1917" height="862" alt="Captura de tela 2025-12-19 110711" src="https://github.com/user-attachments/assets/868f8432-8bc7-4a8d-b911-a69e7bb0d0f6" /> 
 
