@@ -114,14 +114,28 @@ li {
 }
 
 
-.remover-btn {
+.remover-btn,
+.check-btn {
     background: none;
     border: none;
     cursor: pointer;
-    color: #e63946;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-.remover-btn:hover {
-    color: #a4161a;
+.remover-btn {
+    color: #e63946;
+}
+
+.check-btn {
+    color: #2a9d56;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.botoes-tarefa {
+    display: flex;
+    gap: 10px;
 }
