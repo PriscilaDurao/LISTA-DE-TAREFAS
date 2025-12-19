@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/images/fundo.png);
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #333;
+}
+
+.container {
+    max-width: 560px;
+    width: 100%;
+    height: 100vh;
+    margin: 30px auto;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: #edeff1;
+}
+
+.container header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.container header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 13px;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px 0;
+}
+
+input,
+button {
+    padding: 8px;
+    border: none;
+}
+
+input,
+input::placeholder {
+    color: rgb(73, 150, 150);
+
+}
+
+input {
+    width: 70%;
+    font-size: 1.1rem;
+}
+
+button {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5.8%;
+}
+
+#adicionar-tarefa {
+    background-color: #009320;
+    margin-left: 8px;
+}
+
+#cancelar-tarefa {
+    background-color: #b80000;
+    margin-left: 8px;
+}
+
+ul {
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 1.3rem;
+    font-family: 'Handlee', cursive;
+    color: #515355;
+    border-bottom: 2px solid #b8babd;
+    list-style: none;
+    cursor: pointer;
+}
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
+.remover-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #e63946;
+    font-size: 16px;
+}
+
+.remover-btn:hover {
+    color: #a4161a;
+}

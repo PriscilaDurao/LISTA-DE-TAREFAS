@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="icon" href="images/mao.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <img src="images/mao.png" alt="Ícone de uma mão segurando uma caneta">
+            <h1>Lista de tarefas</h1>
+        </header>
+
+        <form>
+            <input type="text" placeholder="Qual terefa deseja adicionar?" id="input-tarefa" required>
+            <button type="submit" id="adicionar-tarefa">Adicionar +</button>
+            <button type="reset" id="cancelar-tarefa">Cancelar</button>
+        </form>
+
+        <div>
+            <ul id="lista-tarefa">
+            </ul>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
