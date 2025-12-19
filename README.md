@@ -50,19 +50,7 @@ O projeto está disponível para visualização em:
 
 🔗 [https://lista-de-tarefas-snowy-eight.vercel.app](https://lista-de-tarefas-snowy-eight.vercel.app)
 
----
-
-## 📸 Preview do Projeto
-
-### 🖥️ Interface Principal
-
-![Preview da Lista de Tarefas](./images/preview.png)
-
-### 🎥 Demonstração em GIF
-
-![Demonstração do funcionamento](./images/demo.gif)
-
-> 💡 **Observação:** As imagens devem ser adicionadas na pasta `images/` do projeto.
+<img width="1917" height="862" alt="Captura de tela 2025-12-19 110711" src="https://github.com/user-attachments/assets/868f8432-8bc7-4a8d-b911-a69e7bb0d0f6" /> 
 
 ---
 
